@@ -42,6 +42,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljs-9o-rJR" userLabel="RecordButton">
                                         <rect key="frame" x="0.0" y="0.0" width="560" height="193"/>
                                         <state key="normal" image="microphone2x-iphone.png"/>
+                                        <connections>
+                                            <action selector="startRecording:" destination="rFY-ln-JUu" eventType="touchUpInside" id="yWM-Cb-e2S"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Press Button to Record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xr5-Gv-PZd">
                                         <rect key="frame" x="0.0" y="193" width="560" height="194"/>
@@ -52,6 +55,9 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AOh-o4-slk" userLabel="StopButton">
                                         <rect key="frame" x="0.0" y="387" width="560" height="193"/>
                                         <state key="normal" image="stop2x-iphone.png"/>
+                                        <connections>
+                                            <action selector="stopRecording:" destination="rFY-ln-JUu" eventType="touchUpInside" id="sVW-4y-GOU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -65,6 +71,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="recordButton" destination="Ljs-9o-rJR" id="Wjd-2o-ZRv"/>
+                        <outlet property="stopButton" destination="AOh-o4-slk" id="Pow-x1-Aq1"/>
+                        <outlet property="taptoRecordLabel" destination="Xr5-Gv-PZd" id="uYI-oG-Qdh"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="stopRecording" id="Pfz-LC-dGA"/>
                     </connections>
                 </viewController>
