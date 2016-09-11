@@ -17,32 +17,6 @@
 		96F5F4491D84C4E700AF0DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4471D84C4E700AF0DFD /* LaunchScreen.storyboard */; };
 		96F5F4541D84C4E700AF0DFD /* Pitch_PerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4531D84C4E700AF0DFD /* Pitch_PerfectTests.swift */; };
 		96F5F45F1D84C4E700AF0DFD /* Pitch_PerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F45E1D84C4E700AF0DFD /* Pitch_PerfectUITests.swift */; };
-		96F5F4891D84C9CB00AF0DFD /* PitchPerfect_1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F46D1D84C9CB00AF0DFD /* PitchPerfect_1024.png */; };
-		96F5F48A1D84C9CB00AF0DFD /* PitchPerfect_120.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F46E1D84C9CB00AF0DFD /* PitchPerfect_120.png */; };
-		96F5F48B1D84C9CB00AF0DFD /* PitchPerfect_152.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F46F1D84C9CB00AF0DFD /* PitchPerfect_152.png */; };
-		96F5F48C1D84C9CB00AF0DFD /* PitchPerfect_180.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4701D84C9CB00AF0DFD /* PitchPerfect_180.png */; };
-		96F5F48D1D84C9CB00AF0DFD /* PitchPerfect_512.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4711D84C9CB00AF0DFD /* PitchPerfect_512.png */; };
-		96F5F48E1D84C9CB00AF0DFD /* PitchPerfect_76.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4721D84C9CB00AF0DFD /* PitchPerfect_76.png */; };
-		96F5F48F1D84C9CB00AF0DFD /* microphone2x-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4731D84C9CB00AF0DFD /* microphone2x-iphone.png */; };
-		96F5F4901D84C9CB00AF0DFD /* pause_160_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4751D84C9CB00AF0DFD /* pause_160_blue.png */; };
-		96F5F4911D84C9CB00AF0DFD /* pause_160_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4761D84C9CB00AF0DFD /* pause_160_grey.png */; };
-		96F5F4921D84C9CB00AF0DFD /* pause_200_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4771D84C9CB00AF0DFD /* pause_200_blue.png */; };
-		96F5F4931D84C9CB00AF0DFD /* pause_200_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4781D84C9CB00AF0DFD /* pause_200_grey.png */; };
-		96F5F4941D84C9CB00AF0DFD /* pause_80_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4791D84C9CB00AF0DFD /* pause_80_blue.png */; };
-		96F5F4951D84C9CB00AF0DFD /* pause_80_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F47A1D84C9CB00AF0DFD /* pause_80_grey.png */; };
-		96F5F4961D84C9CB00AF0DFD /* resume_160_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F47B1D84C9CB00AF0DFD /* resume_160_blue.png */; };
-		96F5F4971D84C9CB00AF0DFD /* resume_160_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F47C1D84C9CB00AF0DFD /* resume_160_grey.png */; };
-		96F5F4981D84C9CB00AF0DFD /* resume_200_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F47D1D84C9CB00AF0DFD /* resume_200_blue.png */; };
-		96F5F4991D84C9CB00AF0DFD /* resume_200_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F47E1D84C9CB00AF0DFD /* resume_200_grey.png */; };
-		96F5F49A1D84C9CB00AF0DFD /* resume_80_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F47F1D84C9CB00AF0DFD /* resume_80_blue.png */; };
-		96F5F49B1D84C9CB00AF0DFD /* resume_80_grey.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4801D84C9CB00AF0DFD /* resume_80_grey.png */; };
-		96F5F49C1D84C9CB00AF0DFD /* chipmunk2x-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4821D84C9CB00AF0DFD /* chipmunk2x-iphone.png */; };
-		96F5F49D1D84C9CB00AF0DFD /* darthvader2x-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4831D84C9CB00AF0DFD /* darthvader2x-iphone.png */; };
-		96F5F49E1D84C9CB00AF0DFD /* echo.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4841D84C9CB00AF0DFD /* echo.png */; };
-		96F5F49F1D84C9CB00AF0DFD /* fast2x-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4851D84C9CB00AF0DFD /* fast2x-iphone.png */; };
-		96F5F4A01D84C9CB00AF0DFD /* reverb.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4861D84C9CB00AF0DFD /* reverb.png */; };
-		96F5F4A11D84C9CB00AF0DFD /* slow2x-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4871D84C9CB00AF0DFD /* slow2x-iphone.png */; };
-		96F5F4A21D84C9CB00AF0DFD /* stop2x-iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4881D84C9CB00AF0DFD /* stop2x-iphone.png */; };
 		96F5F4A41D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
 		96F5F4A51D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
 		96F5F4A61D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
@@ -86,32 +60,6 @@
 		96F5F45A1D84C4E700AF0DFD /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F5F45E1D84C4E700AF0DFD /* Pitch_PerfectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pitch_PerfectUITests.swift; sourceTree = "<group>"; };
 		96F5F4601D84C4E700AF0DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96F5F46D1D84C9CB00AF0DFD /* PitchPerfect_1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PitchPerfect_1024.png; sourceTree = "<group>"; };
-		96F5F46E1D84C9CB00AF0DFD /* PitchPerfect_120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PitchPerfect_120.png; sourceTree = "<group>"; };
-		96F5F46F1D84C9CB00AF0DFD /* PitchPerfect_152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PitchPerfect_152.png; sourceTree = "<group>"; };
-		96F5F4701D84C9CB00AF0DFD /* PitchPerfect_180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PitchPerfect_180.png; sourceTree = "<group>"; };
-		96F5F4711D84C9CB00AF0DFD /* PitchPerfect_512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PitchPerfect_512.png; sourceTree = "<group>"; };
-		96F5F4721D84C9CB00AF0DFD /* PitchPerfect_76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PitchPerfect_76.png; sourceTree = "<group>"; };
-		96F5F4731D84C9CB00AF0DFD /* microphone2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "microphone2x-iphone.png"; sourceTree = "<group>"; };
-		96F5F4751D84C9CB00AF0DFD /* pause_160_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_160_blue.png; sourceTree = "<group>"; };
-		96F5F4761D84C9CB00AF0DFD /* pause_160_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_160_grey.png; sourceTree = "<group>"; };
-		96F5F4771D84C9CB00AF0DFD /* pause_200_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_200_blue.png; sourceTree = "<group>"; };
-		96F5F4781D84C9CB00AF0DFD /* pause_200_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_200_grey.png; sourceTree = "<group>"; };
-		96F5F4791D84C9CB00AF0DFD /* pause_80_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_80_blue.png; sourceTree = "<group>"; };
-		96F5F47A1D84C9CB00AF0DFD /* pause_80_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause_80_grey.png; sourceTree = "<group>"; };
-		96F5F47B1D84C9CB00AF0DFD /* resume_160_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_160_blue.png; sourceTree = "<group>"; };
-		96F5F47C1D84C9CB00AF0DFD /* resume_160_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_160_grey.png; sourceTree = "<group>"; };
-		96F5F47D1D84C9CB00AF0DFD /* resume_200_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_200_blue.png; sourceTree = "<group>"; };
-		96F5F47E1D84C9CB00AF0DFD /* resume_200_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_200_grey.png; sourceTree = "<group>"; };
-		96F5F47F1D84C9CB00AF0DFD /* resume_80_blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_80_blue.png; sourceTree = "<group>"; };
-		96F5F4801D84C9CB00AF0DFD /* resume_80_grey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = resume_80_grey.png; sourceTree = "<group>"; };
-		96F5F4821D84C9CB00AF0DFD /* chipmunk2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chipmunk2x-iphone.png"; sourceTree = "<group>"; };
-		96F5F4831D84C9CB00AF0DFD /* darthvader2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "darthvader2x-iphone.png"; sourceTree = "<group>"; };
-		96F5F4841D84C9CB00AF0DFD /* echo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = echo.png; sourceTree = "<group>"; };
-		96F5F4851D84C9CB00AF0DFD /* fast2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fast2x-iphone.png"; sourceTree = "<group>"; };
-		96F5F4861D84C9CB00AF0DFD /* reverb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reverb.png; sourceTree = "<group>"; };
-		96F5F4871D84C9CB00AF0DFD /* slow2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "slow2x-iphone.png"; sourceTree = "<group>"; };
-		96F5F4881D84C9CB00AF0DFD /* stop2x-iphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stop2x-iphone.png"; sourceTree = "<group>"; };
 		96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		96F5F4A71D84DA1100AF0DFD /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
@@ -166,11 +114,6 @@
 		96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
-				96F5F46C1D84C9CB00AF0DFD /* app icons */,
-				96F5F4731D84C9CB00AF0DFD /* microphone2x-iphone.png */,
-				96F5F4741D84C9CB00AF0DFD /* pause and resume */,
-				96F5F4811D84C9CB00AF0DFD /* sound effect buttons */,
-				96F5F4881D84C9CB00AF0DFD /* stop2x-iphone.png */,
 				96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */,
 				96F5F4401D84C4E700AF0DFD /* ViewController.swift */,
 				96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */,
@@ -200,51 +143,6 @@
 				96F5F4601D84C4E700AF0DFD /* Info.plist */,
 			);
 			path = "Pitch PerfectUITests";
-			sourceTree = "<group>";
-		};
-		96F5F46C1D84C9CB00AF0DFD /* app icons */ = {
-			isa = PBXGroup;
-			children = (
-				96F5F46D1D84C9CB00AF0DFD /* PitchPerfect_1024.png */,
-				96F5F46E1D84C9CB00AF0DFD /* PitchPerfect_120.png */,
-				96F5F46F1D84C9CB00AF0DFD /* PitchPerfect_152.png */,
-				96F5F4701D84C9CB00AF0DFD /* PitchPerfect_180.png */,
-				96F5F4711D84C9CB00AF0DFD /* PitchPerfect_512.png */,
-				96F5F4721D84C9CB00AF0DFD /* PitchPerfect_76.png */,
-			);
-			path = "app icons";
-			sourceTree = "<group>";
-		};
-		96F5F4741D84C9CB00AF0DFD /* pause and resume */ = {
-			isa = PBXGroup;
-			children = (
-				96F5F4751D84C9CB00AF0DFD /* pause_160_blue.png */,
-				96F5F4761D84C9CB00AF0DFD /* pause_160_grey.png */,
-				96F5F4771D84C9CB00AF0DFD /* pause_200_blue.png */,
-				96F5F4781D84C9CB00AF0DFD /* pause_200_grey.png */,
-				96F5F4791D84C9CB00AF0DFD /* pause_80_blue.png */,
-				96F5F47A1D84C9CB00AF0DFD /* pause_80_grey.png */,
-				96F5F47B1D84C9CB00AF0DFD /* resume_160_blue.png */,
-				96F5F47C1D84C9CB00AF0DFD /* resume_160_grey.png */,
-				96F5F47D1D84C9CB00AF0DFD /* resume_200_blue.png */,
-				96F5F47E1D84C9CB00AF0DFD /* resume_200_grey.png */,
-				96F5F47F1D84C9CB00AF0DFD /* resume_80_blue.png */,
-				96F5F4801D84C9CB00AF0DFD /* resume_80_grey.png */,
-			);
-			path = "pause and resume";
-			sourceTree = "<group>";
-		};
-		96F5F4811D84C9CB00AF0DFD /* sound effect buttons */ = {
-			isa = PBXGroup;
-			children = (
-				96F5F4821D84C9CB00AF0DFD /* chipmunk2x-iphone.png */,
-				96F5F4831D84C9CB00AF0DFD /* darthvader2x-iphone.png */,
-				96F5F4841D84C9CB00AF0DFD /* echo.png */,
-				96F5F4851D84C9CB00AF0DFD /* fast2x-iphone.png */,
-				96F5F4861D84C9CB00AF0DFD /* reverb.png */,
-				96F5F4871D84C9CB00AF0DFD /* slow2x-iphone.png */,
-			);
-			path = "sound effect buttons";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -354,35 +252,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F5F4931D84C9CB00AF0DFD /* pause_200_grey.png in Resources */,
-				96F5F49D1D84C9CB00AF0DFD /* darthvader2x-iphone.png in Resources */,
-				96F5F4981D84C9CB00AF0DFD /* resume_200_blue.png in Resources */,
-				96F5F4991D84C9CB00AF0DFD /* resume_200_grey.png in Resources */,
-				96F5F48E1D84C9CB00AF0DFD /* PitchPerfect_76.png in Resources */,
 				96F5F4491D84C4E700AF0DFD /* LaunchScreen.storyboard in Resources */,
-				96F5F48B1D84C9CB00AF0DFD /* PitchPerfect_152.png in Resources */,
-				96F5F4911D84C9CB00AF0DFD /* pause_160_grey.png in Resources */,
-				96F5F49F1D84C9CB00AF0DFD /* fast2x-iphone.png in Resources */,
-				96F5F4901D84C9CB00AF0DFD /* pause_160_blue.png in Resources */,
-				96F5F48C1D84C9CB00AF0DFD /* PitchPerfect_180.png in Resources */,
-				96F5F4A01D84C9CB00AF0DFD /* reverb.png in Resources */,
-				96F5F4971D84C9CB00AF0DFD /* resume_160_grey.png in Resources */,
-				96F5F48F1D84C9CB00AF0DFD /* microphone2x-iphone.png in Resources */,
 				96F5F4461D84C4E700AF0DFD /* Assets.xcassets in Resources */,
-				96F5F4A11D84C9CB00AF0DFD /* slow2x-iphone.png in Resources */,
-				96F5F49A1D84C9CB00AF0DFD /* resume_80_blue.png in Resources */,
 				96F5F4441D84C4E700AF0DFD /* Main.storyboard in Resources */,
-				96F5F4891D84C9CB00AF0DFD /* PitchPerfect_1024.png in Resources */,
-				96F5F49B1D84C9CB00AF0DFD /* resume_80_grey.png in Resources */,
-				96F5F4941D84C9CB00AF0DFD /* pause_80_blue.png in Resources */,
-				96F5F4961D84C9CB00AF0DFD /* resume_160_blue.png in Resources */,
-				96F5F49C1D84C9CB00AF0DFD /* chipmunk2x-iphone.png in Resources */,
-				96F5F48A1D84C9CB00AF0DFD /* PitchPerfect_120.png in Resources */,
-				96F5F49E1D84C9CB00AF0DFD /* echo.png in Resources */,
-				96F5F4A21D84C9CB00AF0DFD /* stop2x-iphone.png in Resources */,
-				96F5F48D1D84C9CB00AF0DFD /* PitchPerfect_512.png in Resources */,
-				96F5F4921D84C9CB00AF0DFD /* pause_200_blue.png in Resources */,
-				96F5F4951D84C9CB00AF0DFD /* pause_80_grey.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
