@@ -11,7 +11,8 @@ import UIKit
 
 class PlaySoundsViewController: UIViewController {
     var audioPlayer : AVAudioPlayer!
-    var receivedAudio : RecordedAudio!
+    var audioPlayerNode : AVAudioPlayerNode!
+    var receivedAudioPath : NSURL!
     var audioEngine : AVAudioEngine!
     var audioFile : AVAudioFile!
     func stopAllAudio () {
@@ -45,7 +46,8 @@ class PlaySoundsViewController: UIViewController {
     func playAudioPitchEffect (pitch : Float) {
         stopAllAudio()
         stopButton.enabled = true
-        let audioPlayerNode = AVAudioPlayerNode()
+        audioEngine = AVAudioEngine()
+        audioPlayerNode = AVAudioPlayerNode()
         audioEngine.attachNode(audioPlayerNode)
         
         let changePitchEffect = AVAudioUnitTimePitch()
@@ -66,10 +68,10 @@ class PlaySoundsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        audioPlayer = try? AVAudioPlayer(contentsOfURL: receivedAudio.filePathUrl)
-        audioPlayer.enableRate = true
-        audioEngine = AVAudioEngine()
-        audioFile = try? AVAudioFile(forReading: receivedAudio.filePathUrl)
+//        audioPlayer = try? AVAudioPlayer(contentsOfURL: receivedAudioPath)
+//        audioPlayer.enableRate = true
+//        audioEngine = AVAudioEngine()
+        audioFile = try? AVAudioFile(forReading: receivedAudioPath)
         // Do any additional setup after loading the view.
     }
     override func viewWillAppear(animated: Bool) {
