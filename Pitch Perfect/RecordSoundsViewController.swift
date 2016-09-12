@@ -89,14 +89,3 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate{
     
 }
 
-//@IBAction func pauseRecording(sender: UIButton) {
-//    if recordingPaused {
-//        audioRecorder.record()
-//        recordingPaused = false
-//        pausedLabel.hidden = true
-//    } else {
-//        audioRecorder.pause()
-//        recordingPaused = true
-//        pausedLabel.hidden = false
-//    }
-//}
