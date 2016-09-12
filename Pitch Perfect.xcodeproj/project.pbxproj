@@ -16,9 +16,6 @@
 		96F5F4A41D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
 		96F5F4A51D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
 		96F5F4A61D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
-		96F5F4A81D84DA1100AF0DFD /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A71D84DA1100AF0DFD /* RecordedAudio.swift */; };
-		96F5F4A91D84DA1100AF0DFD /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A71D84DA1100AF0DFD /* RecordedAudio.swift */; };
-		96F5F4AA1D84DA1100AF0DFD /* RecordedAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A71D84DA1100AF0DFD /* RecordedAudio.swift */; };
 		96F5F4AC1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */; };
 		96F5F4AD1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */; };
 		96F5F4AE1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */; };
@@ -53,7 +50,6 @@
 		96F5F44F1D84C4E700AF0DFD /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
 		96F5F45A1D84C4E700AF0DFD /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
 		96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
-		96F5F4A71D84DA1100AF0DFD /* RecordedAudio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordedAudio.swift; sourceTree = "<group>"; };
 		96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,7 +92,6 @@
 				96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */,
 				96F5F4401D84C4E700AF0DFD /* ViewController.swift */,
 				96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */,
-				96F5F4A71D84DA1100AF0DFD /* RecordedAudio.swift */,
 				96F5F4421D84C4E700AF0DFD /* Main.storyboard */,
 				96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */,
 				96F5F4451D84C4E700AF0DFD /* Assets.xcassets */,
@@ -240,7 +235,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F5F4A81D84DA1100AF0DFD /* RecordedAudio.swift in Sources */,
 				96B0746E1D862D880041782A /* PlaySoundsViewController+Audio.swift in Sources */,
 				96F5F4A41D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4411D84C4E700AF0DFD /* ViewController.swift in Sources */,
@@ -253,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F5F4A91D84DA1100AF0DFD /* RecordedAudio.swift in Sources */,
 				96F5F4A51D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4AD1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
 			);
@@ -263,7 +256,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F5F4AA1D84DA1100AF0DFD /* RecordedAudio.swift in Sources */,
 				96F5F4A61D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4AE1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
 			);
