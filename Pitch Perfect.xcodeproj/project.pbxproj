@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96B0746E1D862D880041782A /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0746D1D862D880041782A /* PlaySoundsViewController+Audio.swift */; };
-		96B0746C1D862BED0041782A /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0746B1D862BED0041782A /* PlaySoundsViewController+Audio.swift */; };
+		96B074841D8672E70041782A /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B074831D8672E70041782A /* PlaySoundsViewController+Audio.swift */; };
 		96F5F43F1D84C4E700AF0DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */; };
 		96F5F4411D84C4E700AF0DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4401D84C4E700AF0DFD /* ViewController.swift */; };
 		96F5F4441D84C4E700AF0DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4421D84C4E700AF0DFD /* Main.storyboard */; };
@@ -40,16 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96B0746D1D862D880041782A /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
-		96B074781D865B600041782A /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B074791D865B600041782A /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
-		96B0747A1D865B600041782A /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
-		967A9ECE1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
-		96F5F43B1D84C4E600AF0DFD /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B0746B1D862BED0041782A /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
-		96B074751D865B040041782A /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B074761D865B040041782A /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
-		96B074771D865B040041782A /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
+		96B074751D865B040041782A /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Pitch Perfect.app"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch Perfect.app"; sourceTree = "<absolute>"; };
+		96B074811D8671F00041782A /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
+		96B074821D8671F00041782A /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
+		96B074831D8672E70041782A /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F5F4401D84C4E700AF0DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96F5F4431D84C4E700AF0DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,19 +82,13 @@
 			isa = PBXGroup;
 			children = (
 				96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */,
-				96B074781D865B600041782A /* Pitch Perfect.app */,
-				96F5F4521D84C4E700AF0DFD /* Pitch PerfectTests */,
-				96F5F45D1D84C4E700AF0DFD /* Pitch PerfectUITests */,
-				96F5F43C1D84C4E600AF0DFD /* Products */,
-				96B074751D865B040041782A /* Pitch Perfect.app */,
 			);
 			sourceTree = "<group>";
 		};
 		96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
-				96B0746D1D862D880041782A /* PlaySoundsViewController+Audio.swift */,
-				96B0746B1D862BED0041782A /* PlaySoundsViewController+Audio.swift */,
+				96B074831D8672E70041782A /* PlaySoundsViewController+Audio.swift */,
 				96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */,
 				96F5F4401D84C4E700AF0DFD /* ViewController.swift */,
 				96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */,
@@ -131,8 +118,6 @@
 			);
 			name = "Pitch Perfect";
 			productName = "Pitch Perfect";
-			productReference = 96B074781D865B600041782A /* Pitch Perfect.app */;
-			productReference = 96F5F43B1D84C4E600AF0DFD /* Pitch Perfect.app */;
 			productReference = 96B074751D865B040041782A /* Pitch Perfect.app */;
 			productType = "com.apple.product-type.application";
 		};
@@ -151,9 +136,7 @@
 			);
 			name = "Pitch PerfectTests";
 			productName = "Pitch PerfectTests";
-			productReference = 96B074791D865B600041782A /* Pitch PerfectTests.xctest */;
-			productReference = 96F5F44F1D84C4E700AF0DFD /* Pitch PerfectTests.xctest */;
-			productReference = 96B074761D865B040041782A /* Pitch PerfectTests.xctest */;
+			productReference = 96B074811D8671F00041782A /* Pitch PerfectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		96F5F4591D84C4E700AF0DFD /* Pitch PerfectUITests */ = {
@@ -171,9 +154,7 @@
 			);
 			name = "Pitch PerfectUITests";
 			productName = "Pitch PerfectUITests";
-			productReference = 96B0747A1D865B600041782A /* Pitch PerfectUITests.xctest */;
-			productReference = 96F5F45A1D84C4E700AF0DFD /* Pitch PerfectUITests.xctest */;
-			productReference = 96B074771D865B040041782A /* Pitch PerfectUITests.xctest */;
+			productReference = 96B074821D8671F00041782A /* Pitch PerfectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -254,10 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B0746E1D862D880041782A /* PlaySoundsViewController+Audio.swift in Sources */,
-				96F5F4A81D84DA1100AF0DFD /* RecordedAudio.swift in Sources */,
-				967A9ECF1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift in Sources */,
-				96B0746C1D862BED0041782A /* PlaySoundsViewController+Audio.swift in Sources */,
+				96B074841D8672E70041782A /* PlaySoundsViewController+Audio.swift in Sources */,
 				96F5F4A41D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4411D84C4E700AF0DFD /* ViewController.swift in Sources */,
 				96F5F4AC1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
