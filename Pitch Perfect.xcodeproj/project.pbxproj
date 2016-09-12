@@ -40,15 +40,15 @@
 
 /* Begin PBXFileReference section */
 		96B0746D1D862D880041782A /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
-		96F5F43B1D84C4E600AF0DFD /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Pitch Perfect.app"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch Perfect.app"; sourceTree = "<absolute>"; };
+		96B074781D865B600041782A /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B074791D865B600041782A /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
+		96B0747A1D865B600041782A /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
 		96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F5F4401D84C4E700AF0DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96F5F4431D84C4E700AF0DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		96F5F4451D84C4E700AF0DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96F5F4481D84C4E700AF0DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96F5F44A1D84C4E700AF0DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96F5F44F1D84C4E700AF0DFD /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
-		96F5F45A1D84C4E700AF0DFD /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
 		96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordSoundsViewController.swift; sourceTree = "<group>"; };
 		96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaySoundsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -82,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */,
+				96B074781D865B600041782A /* Pitch Perfect.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +119,7 @@
 			);
 			name = "Pitch Perfect";
 			productName = "Pitch Perfect";
-			productReference = 96F5F43B1D84C4E600AF0DFD /* Pitch Perfect.app */;
+			productReference = 96B074781D865B600041782A /* Pitch Perfect.app */;
 			productType = "com.apple.product-type.application";
 		};
 		96F5F44E1D84C4E700AF0DFD /* Pitch PerfectTests */ = {
@@ -136,7 +137,7 @@
 			);
 			name = "Pitch PerfectTests";
 			productName = "Pitch PerfectTests";
-			productReference = 96F5F44F1D84C4E700AF0DFD /* Pitch PerfectTests.xctest */;
+			productReference = 96B074791D865B600041782A /* Pitch PerfectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		96F5F4591D84C4E700AF0DFD /* Pitch PerfectUITests */ = {
@@ -154,7 +155,7 @@
 			);
 			name = "Pitch PerfectUITests";
 			productName = "Pitch PerfectUITests";
-			productReference = 96F5F45A1D84C4E700AF0DFD /* Pitch PerfectUITests.xctest */;
+			productReference = 96B0747A1D865B600041782A /* Pitch PerfectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
