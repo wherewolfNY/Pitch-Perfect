@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		967A9ECF1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967A9ECE1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift */; };
-		967A9ED01D84F43700F18D31 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967A9ECE1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift */; };
-		967A9ED11D84F43700F18D31 /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967A9ECE1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift */; };
+		96B0746C1D862BED0041782A /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B0746B1D862BED0041782A /* PlaySoundsViewController+Audio.swift */; };
 		96F5F43F1D84C4E700AF0DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */; };
 		96F5F4411D84C4E700AF0DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4401D84C4E700AF0DFD /* ViewController.swift */; };
 		96F5F4441D84C4E700AF0DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4421D84C4E700AF0DFD /* Main.storyboard */; };
@@ -46,7 +44,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		967A9ECE1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
+		96B0746B1D862BED0041782A /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		96F5F43B1D84C4E600AF0DFD /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F5F4401D84C4E700AF0DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +91,6 @@
 		96F5F4321D84C4E600AF0DFD = {
 			isa = PBXGroup;
 			children = (
-				967A9ECE1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift */,
 				96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */,
 				96F5F4521D84C4E700AF0DFD /* Pitch PerfectTests */,
 				96F5F45D1D84C4E700AF0DFD /* Pitch PerfectUITests */,
@@ -114,6 +111,7 @@
 		96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */ = {
 			isa = PBXGroup;
 			children = (
+				96B0746B1D862BED0041782A /* PlaySoundsViewController+Audio.swift */,
 				96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */,
 				96F5F4401D84C4E700AF0DFD /* ViewController.swift */,
 				96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */,
@@ -280,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96F5F4A81D84DA1100AF0DFD /* RecordedAudio.swift in Sources */,
-				967A9ECF1D84F43700F18D31 /* PlaySoundsViewController+Audio.swift in Sources */,
+				96B0746C1D862BED0041782A /* PlaySoundsViewController+Audio.swift in Sources */,
 				96F5F4A41D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4411D84C4E700AF0DFD /* ViewController.swift in Sources */,
 				96F5F4AC1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
@@ -292,7 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				967A9ED01D84F43700F18D31 /* PlaySoundsViewController+Audio.swift in Sources */,
 				96F5F4A91D84DA1100AF0DFD /* RecordedAudio.swift in Sources */,
 				96F5F4A51D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4AD1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
@@ -304,7 +301,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				967A9ED11D84F43700F18D31 /* PlaySoundsViewController+Audio.swift in Sources */,
 				96F5F4AA1D84DA1100AF0DFD /* RecordedAudio.swift in Sources */,
 				96F5F4A61D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4AE1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
