@@ -39,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		96B074751D865B040041782A /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Pitch Perfect.app"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch Perfect.app"; sourceTree = "<absolute>"; };
-		96B074811D8671F00041782A /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
-		96B074821D8671F00041782A /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
+		9692DAA11D93026C00FF280B /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9692DAA21D93026C00FF280B /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9692DAA31D93026C00FF280B /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B074831D8672E70041782A /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F5F4401D84C4E700AF0DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,6 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */,
+				9692DAA11D93026C00FF280B /* Pitch Perfect.app */,
+				9692DAA21D93026C00FF280B /* Pitch PerfectTests.xctest */,
+				9692DAA31D93026C00FF280B /* Pitch PerfectUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,7 +121,7 @@
 			);
 			name = "Pitch Perfect";
 			productName = "Pitch Perfect";
-			productReference = 96B074751D865B040041782A /* Pitch Perfect.app */;
+			productReference = 9692DAA11D93026C00FF280B /* Pitch Perfect.app */;
 			productType = "com.apple.product-type.application";
 		};
 		96F5F44E1D84C4E700AF0DFD /* Pitch PerfectTests */ = {
@@ -136,7 +139,7 @@
 			);
 			name = "Pitch PerfectTests";
 			productName = "Pitch PerfectTests";
-			productReference = 96B074811D8671F00041782A /* Pitch PerfectTests.xctest */;
+			productReference = 9692DAA21D93026C00FF280B /* Pitch PerfectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		96F5F4591D84C4E700AF0DFD /* Pitch PerfectUITests */ = {
@@ -154,7 +157,7 @@
 			);
 			name = "Pitch PerfectUITests";
 			productName = "Pitch PerfectUITests";
-			productReference = 96B074821D8671F00041782A /* Pitch PerfectUITests.xctest */;
+			productReference = 9692DAA31D93026C00FF280B /* Pitch PerfectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -170,15 +173,18 @@
 					96F5F43A1D84C4E600AF0DFD = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = MFUPWSUCH3;
+						LastSwiftMigration = 0800;
 					};
 					96F5F44E1D84C4E700AF0DFD = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = MFUPWSUCH3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 96F5F43A1D84C4E600AF0DFD;
 					};
 					96F5F4591D84C4E700AF0DFD = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = MFUPWSUCH3;
+						LastSwiftMigration = 0800;
 						TestTargetID = 96F5F43A1D84C4E600AF0DFD;
 					};
 				};
@@ -390,6 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.Pitch-Perfect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -404,6 +411,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.Pitch-Perfect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -415,6 +423,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.Pitch-PerfectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitch Perfect.app/Pitch Perfect";
 			};
 			name = Debug;
@@ -427,6 +436,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.Pitch-PerfectTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pitch Perfect.app/Pitch Perfect";
 			};
 			name = Release;
@@ -438,6 +448,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.Pitch-PerfectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Pitch Perfect";
 			};
 			name = Debug;
@@ -449,6 +460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.sdc.Pitch-PerfectUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = "Pitch Perfect";
 			};
 			name = Release;
