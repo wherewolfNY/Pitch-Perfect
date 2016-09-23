@@ -36,7 +36,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate{
         let recordingName = formatter.string(from: currentDateTime)+".wav"
         print (recordingName)
         let pathArray = [dirPath, recordingName]
-        let filePath = URL.fileURL(withPathComponents: pathArray)
+        let filePath = NSURL.fileURL(withPathComponents: pathArray)
         print(filePath)
         // Change button and lable views
         recordButton.isEnabled = false

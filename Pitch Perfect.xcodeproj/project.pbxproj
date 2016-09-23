@@ -7,18 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96B074841D8672E70041782A /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B074831D8672E70041782A /* PlaySoundsViewController+Audio.swift */; };
+		9692DAA61D9318FF00FF280B /* PlaySoundsViewController+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B074831D8672E70041782A /* PlaySoundsViewController+Audio.swift */; };
+		9692DAA71D93191000FF280B /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */; };
 		96F5F43F1D84C4E700AF0DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */; };
 		96F5F4411D84C4E700AF0DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4401D84C4E700AF0DFD /* ViewController.swift */; };
 		96F5F4441D84C4E700AF0DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4421D84C4E700AF0DFD /* Main.storyboard */; };
 		96F5F4461D84C4E700AF0DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4451D84C4E700AF0DFD /* Assets.xcassets */; };
 		96F5F4491D84C4E700AF0DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96F5F4471D84C4E700AF0DFD /* LaunchScreen.storyboard */; };
 		96F5F4A41D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
-		96F5F4A51D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
-		96F5F4A61D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4A31D84D55F00AF0DFD /* RecordSoundsViewController.swift */; };
-		96F5F4AC1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */; };
-		96F5F4AD1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */; };
-		96F5F4AE1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F5F4AB1D84DAC900AF0DFD /* PlaySoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +36,8 @@
 
 /* Begin PBXFileReference section */
 		9692DAA11D93026C00FF280B /* Pitch Perfect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pitch Perfect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9692DAA21D93026C00FF280B /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9692DAA31D93026C00FF280B /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pitch PerfectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9692DAA81D931ACF00FF280B /* Pitch PerfectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectTests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectTests.xctest"; sourceTree = "<absolute>"; };
+		9692DAA91D931ACF00FF280B /* Pitch PerfectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Pitch PerfectUITests.xctest"; path = "/Users/jason/Documents/Udacity Projects Final/Pitch Perfect/build/Debug-iphoneos/Pitch PerfectUITests.xctest"; sourceTree = "<absolute>"; };
 		96B074831D8672E70041782A /* PlaySoundsViewController+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsViewController+Audio.swift"; sourceTree = "<group>"; };
 		96F5F43E1D84C4E700AF0DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96F5F4401D84C4E700AF0DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -83,8 +79,6 @@
 			children = (
 				96F5F43D1D84C4E700AF0DFD /* Pitch Perfect */,
 				9692DAA11D93026C00FF280B /* Pitch Perfect.app */,
-				9692DAA21D93026C00FF280B /* Pitch PerfectTests.xctest */,
-				9692DAA31D93026C00FF280B /* Pitch PerfectUITests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,7 +133,7 @@
 			);
 			name = "Pitch PerfectTests";
 			productName = "Pitch PerfectTests";
-			productReference = 9692DAA21D93026C00FF280B /* Pitch PerfectTests.xctest */;
+			productReference = 9692DAA81D931ACF00FF280B /* Pitch PerfectTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		96F5F4591D84C4E700AF0DFD /* Pitch PerfectUITests */ = {
@@ -157,7 +151,7 @@
 			);
 			name = "Pitch PerfectUITests";
 			productName = "Pitch PerfectUITests";
-			productReference = 9692DAA31D93026C00FF280B /* Pitch PerfectUITests.xctest */;
+			productReference = 9692DAA91D931ACF00FF280B /* Pitch PerfectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -167,7 +161,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Jason Waldroup";
 				TargetAttributes = {
 					96F5F43A1D84C4E600AF0DFD = {
@@ -241,10 +235,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B074841D8672E70041782A /* PlaySoundsViewController+Audio.swift in Sources */,
+				9692DAA61D9318FF00FF280B /* PlaySoundsViewController+Audio.swift in Sources */,
 				96F5F4A41D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
 				96F5F4411D84C4E700AF0DFD /* ViewController.swift in Sources */,
-				96F5F4AC1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
+				9692DAA71D93191000FF280B /* PlaySoundsViewController.swift in Sources */,
 				96F5F43F1D84C4E700AF0DFD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,8 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F5F4A51D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
-				96F5F4AD1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F5F4A61D84D55F00AF0DFD /* RecordSoundsViewController.swift in Sources */,
-				96F5F4AE1D84DAC900AF0DFD /* PlaySoundsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,8 +306,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -361,8 +353,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -381,6 +375,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
